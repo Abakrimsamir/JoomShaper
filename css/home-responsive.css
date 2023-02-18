@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@media screen and (max-width: 667px){
+      .toggle_btn{
+        display: block;
+      }
+      .dropdown_menu{
+        display: block;
+      }
+      .home{
+        padding-left: 20px;
+      }
+      .logo{
+        position: absolute;
+        font-size: 30px;
+        margin-top: -6px;
+      }
+      .navbar{
+        display: none;  
+      }
+      .topbar{
+        margin-top: 10px;
+        flex-direction: column;
+      }
+      .socialmedia{
+        display: none;
+      }
+      .searchbutton{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        width: 100%;
+      }
+      .searchbutton img {
+        width: 17px;
+      }
+      .searchspace{
+        width: 270px;
+      }
+      .loginhere{
+        position: absolute;
+        font-size: 12px;
+        right: 1rem;
+        padding: 8px 10px;
+      }
+      .cart{
+        position: absolute;
+        top: 10px;
+        left: 4.5rem;
+      }
+      .my_courses{
+        padding-bottom: 5px;
+        background-color: rgb(0, 0, 0);
+      }
+      .listcourses{
+        display: none;
+      }
+      .home-title{
+        width: 90%;
+        font-size: 35px;
+        text-align: left;
+        font-family: 'Righteous';
+        line-height: 45px;
+        margin-top: 150px;
+        padding-left: 2%;
+      }
+      .home{
+        background-image: url("/images/onlineEducation.svg");
+        background-position: top;
+        margin-bottom: 70px;
+      }
+      .home p{
+        width: 290px;
+        padding-left: 2%;
+      }
+      .home a{
+        margin-left: 2%;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+      }
+      .statistique{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        gap: 5px;
+      }
+      .learner , .instructor , .certified{
+        width: 92%;
+        font-size: 5px;
+        border: 1px solid #EA5252;
+        filter: none;
+      }
+      .learner img, .instructor img, .certified img{
+        width: 40px;
+      }
+      .learner p, .instructor p, .certified p{
+        font-size: 25px;
+      }
+      .topcourses{
+        width: 90%;
+        margin: auto; 
+      }
+      .top-courses{
+        font-size: 80%;
+      }
+      .seemore a {
+        font-size: 13px;
+      }
+      .seemore img{
+        width: 8px;
+      }
+      .courses{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        margin-bottom: -30px;
+        gap: 15px;
+      }
+      .course1, .course2, .course3{
+        width: 100%;
+      }
+      .introFeatures{
+        background: none;
+        height: 100%;
+        gap: 10px;
+      }
+      .Features{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .stairs, .shuffle, .desktop{
+        width: 100%;
+        background-color: #EA5252;
+        border-radius: 10px;
+        height: 80px;
+        display: flex;
+        padding-top: 20px;
+      }
+      .stairs p, .shuffle p, .desktop p{
+        font-size: 15px;
+        width: 210px;
+      }
+      .stairs img, .shuffle img, .desktop img{
+        width: 55px;
+        padding-right: 25px;
+        padding-left: 25px;
+      }
+      .stairs a img, .shuffle a img, .desktop a img{
+        width: 10px;
+        padding-left: 3px;
+      }
+      .line{
+        display: none;
+      }
+      .recommanded, .best-selling{
+        width: 90%;
+        margin: auto;
+      }
+      .recommanded-courses-title, .bsalling-courses-title{
+        font-size: 80%;
+      }
+      .categories ul{
+        display: flex;
+        gap: 10px;
+      }
+      .recommanded-categories{
+        width: 90%;
+        margin: auto;
+        padding: 5px;
+        font-size: 80%;
+      }
+      .categories ul li a {
+        font-size: 12px;
+        padding: 5px;
+      }
+      .comment{
+        height: 250px;
+        background: none;
+        width: 90%;
+        margin: auto;
+      }
+      .quote{
+        display: flex;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 2rem;
+        color: black;
+        align-items: center;
+        justify-content: center;
+      }
+      .text-quote{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+      }
+      .quoteend{
+        display: none;
+      }
+      .footer-contant{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .input-subscirbe input{
+        width: 90%;
+        height: 40px;
+      }
+      .input-subscirbe{
+        padding-top: 30px;
+      }
+      footer{
+        clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0% 100%);
+        background-color: #EA5252;
+      }
+      .footer-contant {
+        background-image: none;
+        padding-top: 20px;
+        padding-bottom: 4rem;
+      }
+      .footer-contant .block-about,
+       .footer-contant .new-letter,
+       .footer-contant .bottom-nav{
+        width: 100%;
+        padding-top: 15px;
+        font-size: 15px;
+      }
+      .block-about h2, .new-letter h2, .bottom-nav h2{
+        font-size: 25px;
+      }
+      .bottom-nav-liste{
+        display: flex;
+        gap: 2px;
+      }
+      .bottom-nav-liste li a{
+        font-size: 15px;
+      }
+      .Copyright p {
+        font-size: 13px;
+      }
+      .input-subscirbe button {
+        font-size: 15px;
+      }
+}
