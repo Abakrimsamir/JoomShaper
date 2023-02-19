@@ -189,7 +189,7 @@ body{
     width: 90%;
     margin: auto;
     gap: 30px;
-    background-image: url("./images/bgStyle.svg");
+    background-image: url("/images/bgStyle.svg");
     background-size: 75%;
     background-position-x: right;
     background-position-y: 53px;
@@ -290,7 +290,7 @@ body{
   .home {
     padding-left: 15%;
     flex-grow: 1;
-    background-image: url("./images/coverPhoto2.jpg");
+    background-image: url("/images/coverPhoto2.jpg");
     background-repeat: no-repeat;
     height: 510px;
     background-size: contain;
