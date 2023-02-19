@@ -146,7 +146,7 @@ body{
     width: 90%;
     margin: auto;
     gap: 30px;
-    background-image: url("/images/bgStyle.svg");
+    background-image: url("../images/bgStyle.svg");
     background-size: 75%;
     background-position-x: right;
     background-position-y: 53px;
@@ -217,18 +217,32 @@ body{
   }
   .socialmedia {
     display: flex;
-    position: absolute;
+    gap: 15px;
     flex-direction: column;
-    padding-top: 160px;
+    padding-top: 150px;
+    position: fixed;
   }
-  .socialmedia .twit{
-    padding-left: 70px;
+  .socialmedia a{
+    text-decoration: none;
   }
-  .socialmedia  .insta {
+  .fb:hover, .twit:hover,  .linkedin:hover, .insta:hover{
+    display: flex;
+    align-items: center;
+    background: #EA5252;
+    color: #FFFFFF;
+    font-size: 2rem;
     padding-left: 70px;
-  } 
-  .socialmedia .linkedin {
-    padding-left: 70px;
+    padding-right: 10px;
+    height: 50px;
+    border: 2px solid #EA5252;
+    border-radius: 0px 50px 50px 0px;
+  }
+  .fb, .twit,  .linkedin, .insta{
+    display: flex;
+    color: #EA5252;
+    font-size: 2.5rem;
+    padding-left: 10px;
+    background-color: #ffffff;
   }
   .topcourses{
     justify-content: space-between;
