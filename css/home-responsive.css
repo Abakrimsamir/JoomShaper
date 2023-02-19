@@ -64,7 +64,7 @@
         padding-left: 2%;
       }
       .home{
-        background-image: url("/images/onlineEducation.svg");
+        background-image: url("../images/onlineEducation.svg");
         background-position: top;
         margin-bottom: 70px;
       }
