@@ -643,7 +643,7 @@ body{
   .comment{
     clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0 100%);
     height: 560px;
-    background-image: url(./images/4-EeTnaC1S4.png);
+    background-image: url("../images/4-EeTnaC1S4.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 80%;
