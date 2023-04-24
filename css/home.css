@@ -62,10 +62,8 @@ body{
   }
 .logo {
     color: #EA5252;
-    font-family: 'Saira Extra Condensed';
-    font-weight: 500;
+    font: normal 500 42px 'Saira Extra Condensed';
     flex-grow: 4;
-    font-size: 42px;
 }
 .searchbutton {
   display: flex;
